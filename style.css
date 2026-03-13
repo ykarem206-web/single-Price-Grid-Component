@@ -93,7 +93,7 @@ button{
 }
 
 @media (max-width: 600px) {
-  .container{
+  .subscription{
     flex-direction: column;
   }
 }
