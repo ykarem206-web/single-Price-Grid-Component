@@ -92,8 +92,14 @@ button{
     font-family: "Karla", sans-serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
   .subscription{
     flex-direction: column;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
   }
 }
