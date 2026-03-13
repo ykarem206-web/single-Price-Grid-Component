@@ -24,10 +24,13 @@ footer p{color: hsl(218, 37%, 83%);}
   color: hsl(71, 73%, 54%);
   margin-bottom: 10px;
 }
-.ad p{color: hsl(218, 22%, 67%);}
+.ad p{
+  padding-bottom: 5px;
+  color: hsl(218, 22%, 67%);
+}
 
 .container{
-  height: 500px;
+  /* height: 500px; */
   background-color: white;
   width: 100%;
   max-width: 650px;
@@ -38,7 +41,7 @@ footer p{color: hsl(218, 37%, 83%);}
 .ad{
   height: 40%;
   /* background-color: aqua; */
-  padding: 30px 40px 70px;
+  padding: 30px 40px 40px;
 }
 .subscription{
   background-color: hsl(179, 62%, 43%);
@@ -49,11 +52,11 @@ footer p{color: hsl(218, 37%, 83%);}
 }
 .left{
   width: 50%;
-  padding: 30px 40px 70px;
+  padding: 30px 40px 40px;
 }
 .right{
   width: 50%;
-  padding: 30px 40px 70px;
+  padding: 30px 40px 40px;
   background-color: hsl(179, 51%, 49%);
   color: hsl(218, 37%, 83%);
 }
