@@ -91,6 +91,10 @@ button{
     width: 100%;
     font-family: "Karla", sans-serif;
 }
+button:hover{
+  background-color: hsl(179, 62%, 43%);
+  outline: auto;
+}
 
 @media (max-width: 600px) {
   .subscription{
