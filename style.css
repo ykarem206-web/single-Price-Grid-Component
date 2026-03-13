@@ -92,7 +92,7 @@ button{
     font-family: "Karla", sans-serif;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .container{
     flex-direction: column;
   }
